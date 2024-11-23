@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Task Title -->
+    <EditText
+        android:id="@+id/editTextTaskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Title"
+        android:inputType="text" />
+
+    <!-- Task Description -->
+    <EditText
+        android:id="@+id/editTextTaskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Task Description"
+        android:inputType="textMultiLine"
+        android:minHeight="80dp" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/buttonSaveTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <!-- Delete Button -->
+    <Button
+        android:id="@+id/buttonDeleteTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:backgroundTint="@color/red" />
+</LinearLayout>

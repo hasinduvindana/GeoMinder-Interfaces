@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <!-- Dialog Title -->
+    <TextView
+        android:id="@+id/dialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Activity"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_gravity="center" />
+
+    <!-- Activity Name -->
+    <EditText
+        android:id="@+id/editTextActivityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Activity Name" />
+
+    <!-- Activity Description -->
+    <EditText
+        android:id="@+id/editTextDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Activity Description" />
+
+    <!-- Select Date -->
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Date"
+        android:focusable="false"
+        android:inputType="none" />
+
+    <!-- Select Time -->
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Time"
+        android:focusable="false"
+        android:inputType="none" />
+
+    <!-- Select Location -->
+    <EditText
+        android:id="@+id/editTextLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Location"
+        android:focusable="false"
+        android:inputType="none" />
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="66dp"
+            android:layout_height="wrap_content"
+            android:text="Ok" />
+    </LinearLayout>
+</LinearLayout>

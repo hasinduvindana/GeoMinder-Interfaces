@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme with custom colors -->
+    <style name="Base.Theme.GeoMinder_interfaces" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here -->
+
+        <!-- Background color -->
+        <item name="android:colorBackground">#121212</item> <!-- Black shade -->
+
+        <!-- Primary color -->
+        <item name="colorPrimary">#2E2E2E</item> <!-- Dark Gray -->
+
+        <!-- Primary variant -->
+        <item name="colorPrimaryVariant">#696969</item> <!-- Silver/Gray -->
+
+        <!-- Secondary color -->
+        <item name="colorSecondary">#B0B0B0</item> <!-- Light Silver -->
+
+        <!-- Text color -->
+        <item name="android:textColor">#FFFFFF</item> <!-- White for contrast -->
+
+        <!-- Button and other accent colors -->
+        <item name="colorAccent">#888888</item> <!-- Mid Gray -->
+    </style>
+
+    <style name="Theme.GeoMinder_interfaces" parent="Base.Theme.GeoMinder_interfaces" />
+</resources>
