@@ -1,20 +1,38 @@
 **View Task List
-****Add New Task
-**-->Task name
+**
+**Add New Task
+**
+-->Task name
+
 -->Description
+
 -->Date & Time
+
 -->Location(Google Map API)
+
 **Clear, submit, delete, edit operations
-****Updated Files
-**-->MainActivity.java
+**
+**Updated Files
+**
+-->MainActivity.java
+
 -->TaskAdapter.java
+
 -->AddTaskDialogFragment.java
+
 -->themes.xml
+
 -->colors.xml
+
 -->AndroidManifest.xml
+
 -->activity_main.xml
+
 -->dialog_add_task.xml
+
 -->edit_task.xml
+
+Fegures
 
 ![image](https://github.com/user-attachments/assets/2b51c998-bdd9-4ca8-bf96-b709f28db64a)
 
